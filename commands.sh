@@ -6,3 +6,4 @@ read y
 [[ $x -lt $y ]] && echo 'X is less than Y'
 exit 0
 
+read char;echo -e "YES\nNO\n" | grep -i $char
